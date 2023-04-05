@@ -7,5 +7,5 @@
 Примечания: Пользователь всегда вводит корректное число.
 Советую округлить значение после расчетов, так как в некоторых случаях может получиться "длинная дробь". */
 const degreesCelsius = Number.parseFloat(prompt("Введите температуру в градусах Цельсия: "));
-alert(`Цельсий: ${degreesCelsius}, Фаренгейт: ${parseFloat((9/5 * degreesCelsius + 32).toFixed(1))}.`);
+alert(`Цельсий: ${degreesCelsius}, Фаренгейт: ${Number.parseFloat((9/5 * degreesCelsius + 32).toFixed(1))}.`);
 
